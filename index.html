@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Apunta – La libreta de tu negocio</title>
+  <meta name="description" content="Apunta: lleva las cuentas de tu negocio diciéndolo por WhatsApp. Próximamente.">
+  <!--
+    Página pública sencilla de Apunta (nombre provisional).
+    Solo texto: sin formularios, sin datos personales y sin llamadas a otros sitios.
+  -->
+  <style>
+    :root { --fondo:#fbfaf6; --tinta:#1d2a2a; --suave:#4a5a58; --acento:#0d7a5f; --linea:#dfe3dc; }
+    @media (prefers-color-scheme: dark) {
+      :root { --fondo:#141a19; --tinta:#e7ece8; --suave:#a9b6b2; --acento:#4cc5a0; --linea:#2c3634; }
+    }
+    * { box-sizing: border-box; }
+    body { margin:0; min-height:100vh; display:grid; place-items:center; background:var(--fondo); color:var(--tinta);
+           font-family: system-ui, "Segoe UI", Arial, sans-serif; line-height:1.55; padding:32px 16px; }
+    main { width:min(100%, 560px); display:grid; gap:18px; text-align:center; }
+    h1 { margin:0; font-size:clamp(40px, 10vw, 60px); color:var(--acento); letter-spacing:-0.02em; }
+    .lema { margin:0; font-size:20px; }
+    .pasos { display:grid; gap:10px; text-align:left; margin:8px 0; padding:18px; border:1px solid var(--linea); border-radius:16px; }
+    .pasos p { margin:0; }
+    .nota { margin:0; color:var(--suave); font-size:15px; }
+    footer { margin-top:12px; color:var(--suave); font-size:13px; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Apunta</h1>
+    <p class="lema">La libreta de tu negocio que se llena sola.</p>
+    <div class="pasos">
+      <p>💬 Dile por WhatsApp lo que pasó en tu negocio: “vendí 3 tacos”, “gasté 180 de gas”.</p>
+      <p>📒 Apunta lo guarda en orden: ventas, gastos, ingresos y clientes.</p>
+      <p>📊 Consulta tus cuentas cuando quieras en tu panel.</p>
+    </div>
+    <p class="nota">🚧 Próximamente · Hecho en México para negocios pequeños.</p>
+    <footer>© 2026 Apunta (nombre provisional)</footer>
+  </main>
+</body>
+</html>
